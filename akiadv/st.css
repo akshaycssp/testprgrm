@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0,6) !important;
+    padding: 20px 0;
+}
+.navbar-dark, .navbar-nav .nav-link{
+    color:#fff;
+    padding-left: 20px;
+}
+.navbar-dark, .navbar-nav .nav-link.active,
+.navbar-dark, .navbar-nav .nav-link:hover{
+    color:#ddff34;
+}
+.heading-content{
+    position: absolute;
+
+    top:40%;
+    width:100%;
+    max-width: 100%;
+}
+footer{
+    background:  #fcbbbb;
+    width=800%;
+    padding: 50px;
+    
+    margin: 200px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.footer-get a{
+    text-align: center; display:root; color: rgb(175, 60, 60); margin-bottom: .50em;
+}
+ .boy{
+    width: 200px;
+    height: 200px;
+   position: absolute;
+   top:15%;
+    
+    color: black;
+    
+}
+.shape{
+    width: 200px;
+    height: 190px;
+   position: absolute;
+   top:20%;
+   filter: invert(98%) sepia(25%) saturate(5207%) 
+   hue-rotate(180deg) brightness(55%) contrast(90%);
+   float:right;
+  
+}
+
+.heading-content h5{
+    
+    font-size: 3em;
+    font-weight: 300;
+    color:rgb(247, 230, 230);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.heading-content h1{
+    font-size: 8em;
+    font-weight: bolder;
+    position: absolute; /* Position the background text */
+    bottom: 100; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(207, 156, 156, 0.5); /* Black background with 0.5 opacity */
+    color: #033e21; /* Grey text */
+    width: 100%; /* Full width */
+   
+    font-family:Lucida Bright;
+    letter-spacing: .2em;
+}
+#about .btn{
+    border:2px solid rgb(128, 105, 214);
+    width: 40%;
+    padding:15px 22px;
+    background: rgb(52, 5, 97);
+} 
+.row{
+    align-content: center;
+}
+#about .btn:hover{color:rgb(247, 230, 230);}
+
